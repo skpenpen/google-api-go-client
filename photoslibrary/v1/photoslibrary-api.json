@@ -892,6 +892,10 @@
           "description": "MIME type of the media item.",
           "type": "string"
         },
+        "filename": {
+          "description": "The filename of the media item shown to the user in the Google Photos app (within the item's info section)",
+          "type": "string"
+        },
         "productUrl": {
           "description": "Google Photos URL for the media item. This link will only be available to\nthe user if they're signed in.",
           "type": "string"
